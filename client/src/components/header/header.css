@@ -1,0 +1,87 @@
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+.header-container > a > .logo {
+    display: flex;
+}
+.header-container > a > .logo > img{
+    width: 140px;
+    height: auto;
+    cursor: pointer;
+}
+
+.header-container > .header-ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    color: #8493A8;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+.header-container > .header-buttons {
+    width: 17%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-container > .header-buttons > a > button{
+    font-weight: 600;
+    font-size: .75rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+.header-container > .header-buttons > a > .header-register {
+    color: #8493A8;
+    background-color: #FFFFFF;
+    border: solid 1px #CAD3DF;
+}
+.header-container > .header-buttons > a > .header-login {
+    background-color: #0D103D;
+    border: solid 1px #0D103D;
+    color: white;
+}
+
+/* Loggedin user */
+.loggedin_user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 18%;
+}
+.loggedin_user > a{
+    color: #8493A8;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.loggedin_user > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.loggedin_user > button{
+    font-weight: 600;
+    font-size: .75rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    background-color: #0D103D;
+    border: solid 1px #0D103D;
+    color: white;
+}

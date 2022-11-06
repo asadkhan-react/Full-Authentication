@@ -1,0 +1,46 @@
+{
+  "name": "full-authentication",
+  "version": "1.0.0",
+  "description": "This project is for complete Authentication",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "cd client && npm run start",
+    "server-install": "npm install",
+    "client-install": "cd client && npm install",
+    "install-all": " concurrently \"npm run server-install\" \"npm run client-install\" ",
+    "dev": " concurrently \"npm run server\" \"npm run client\" ",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "keywords": [
+    "login",
+    "signup",
+    "react",
+    "nodejs",
+    "email-verification"
+  ],
+  "author": "Asad Khan",
+  "license": "ISC",
+  "dependencies": {
+    "@mui/x-date-pickers": "^5.0.4",
+    "bcrypt": "^5.0.1",
+    "cloudinary": "^1.32.0",
+    "concurrently": "^7.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "googleapi": "^1.0.2",
+    "googleapis": "^108.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment-timezone": "^0.5.38",
+    "mongoose": "^6.6.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "react-model": "^4.2.1",
+    "select-timezone-material-ui": "^2.8.0"
+  }
+}

@@ -1,0 +1,133 @@
+/* Login Start */
+.login-container{
+    display: flex;
+    justify-content: center;
+}
+.login-form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.login-form-container > .login-headings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-form-container > .login-headings > h2{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    color: #0D103D;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 102%;
+}
+.login-form-container > .login-headings > span{
+    display: inline-block;
+    line-height: 16px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+.login-form-container > form{
+    width: 70%;
+    margin-top: 30px;
+}
+.login-form-container > form > div > .forminput{
+    background: #F5F8FF;
+    outline: none;
+    border: solid 1px rgba(132,147,168);
+    padding: 1rem;
+    width: 93%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.login-form-container > form > div > .forminput::placeholder{
+   font-size: 15px;
+   color: rgba(132,147,168);
+}
+.login-form-container > form .third_form_section{
+    padding-top: 20px;
+    bottom: 0px;
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.login-form-container > form .third_form_section > button{
+    padding: 0.7rem 3rem;
+    border-radius: 10px;
+    background-color: #0D103D;
+    border: solid 1px #0D103D;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    width: 45%;
+}
+.skip_investor{
+    width: 100%;
+    padding: 0.7rem;
+    background: #0D103D;
+    border: none;
+    color: white;
+    font-size: 22px;
+}
+
+.login-form-container > form > .third_form_section > .third_form_little{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8px;
+}
+.login-form-container > form > .third_form_section > .third_form_little > span{
+    /* width: ; */
+}
+.login-form-container > form > .third_form_section > .third_form_little > span > a{
+    text-decoration: none;
+    color: #0D103D;
+    font-weight: 600;
+}
+
+.login_banner{
+    width: 35%;
+}
+.login_banner > img{
+    width: 100%;
+}
+
+/* Login End */
+
+/* Register */
+.selectinput{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: solid 1px rgba(132,147,168);
+    background: #F5F8FF;
+    outline: none;
+}
+.common_register{
+    margin-top: 20px;
+}
+
+/* Strong Password Css*/
+.invalid{
+    color: red;
+}
+.valid{
+    color: green;
+}
+
+/* Password Show Hide */
+.password_show_hide_container{
+    display: flex;
+    align-items: center;
+}
+
+.password_field{
+    border: none !important;
+}
